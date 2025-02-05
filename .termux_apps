@@ -1,0 +1,29 @@
+alias whatsapp='am start -n com.whatsapp/.Main'
+
+alias quran='am start -n com.addinsoft.hifzquran/.MainActivity'
+
+alias lock='am start -n com.android.bbk.lockscreen3/.LockScreenActivity;exit'
+
+#alias hub='am start -n com.github.android.activities/.MainActivity'
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '
+
+#alias  ='am start -n '

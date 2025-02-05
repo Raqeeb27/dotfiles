@@ -1,0 +1,62 @@
+# ------ Termux .NANORC -------
+
+
+# Set line numbers to be displayed in the editor
+set linenumbers
+
+# Set tab size to 4 spaces
+set tabsize 4
+
+# Convert tabs to spaces
+set tabstospaces
+
+# Enable soft wrap for long lines
+set softwrap
+
+# Enable auto-indentation
+set autoindent
+
+# Set title color to bright green text on a black background
+set titlecolor brightmagenta
+
+# Set line number color to bright yellow text on a black background
+set numbercolor brightmagenta
+
+# Enable mouse support
+set mouse
+
+# Enable history logging
+set historylog
+
+# Enable bold text
+set boldtext
+
+# Enable position logging
+set positionlog
+
+# Trim trailing blanks from lines
+set trimblanks
+
+# Treat spaces at the end of lines as errors
+set atblanks
+
+# Break long lines for better visibility
+set breaklonglines
+
+# Set search to be case sensitive
+set casesensitive
+
+# Set status color to bright yellow text on a black background
+set statuscolor brightmagenta
+
+# Toggle line numbers in the main editor with Ctrl+N
+bind ^N linenumbers main
+
+# Save file with Ctrl+O
+#bind ^O writeout main
+
+# Exit nano with Ctrl+X
+#bind ^X exit main
+
+# Customize backup and swap file settings
+#set backup

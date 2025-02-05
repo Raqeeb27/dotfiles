@@ -1,0 +1,153 @@
+## ----------- TERMUX ALIASES --------------------
+
+alias fowsat='fortune | cowsay | lolcat'
+
+alias update='apt update && apt upgrade -y && apt autoremove -y'
+
+alias up='apt update && apt upgrade -y && apt autoremove -y'
+
+alias remove='apt autoremove -y'
+
+alias cls='clear; date +"%A, %d %B %Y, %I:%M:%S %p" | lolcat'
+
+alias x='clear;exit'
+
+alias his='history'
+
+alias ls='lsd'
+
+alias ll='lsd -la'
+
+alias la='lsd -A'
+
+alias l='ls -CF'
+
+alias grep='grep --color=auto'
+
+alias weather='curl wttr.in'
+
+alias fruit='ssh raqeeb@nonan23x.site'
+
+alias fasi='ssh fasi@nonan23x.site'
+
+alias samad='ssh samad@nonan23x.site'
+
+alias pc='ssh abdul@192.168.29.60'
+
+alias cmat='cmatrix'
+
+alias gs='git status'
+
+alias par='curl parrot.live'
+
+alias human='curl ascii.live/forrest'
+
+alias bashswitch='chsh -s bash;exit'
+
+alias fishswitch='chsh -s fish;exit'
+
+alias zshswitch='chsh -s zsh;exit'
+
+# alias vim='nvim'
+
+# alias ss="sshd;exit"
+
+alias kss="pkill sshd;exit"
+
+alias me="ifconfig tun0;ifconfig wlan0;nmap localhost"
+
+alias py="python"
+
+alias open="termux-share"
+
+alias send="termux-share -a send"
+
+alias vpnscan="nmap -sn -PR 10.8.0.1/24"
+
+alias fasivpn="ssh u0_a44@10.8.0.8 -p 8022"
+
+alias samadvpn="ssh u0_a423@10.8.0.9 -p 8022"
+
+alias scan="nmap -sn -PR 192.168.29.0/24"
+
+alias train="sleep 3;python ~/../train.py"
+
+alias zs="clear;python ~/Zikr/short_zikr.py"
+
+alias zl="clear;python ~/Zikr/long_zikr.py"
+
+alias search="find /data/data/com.termux"
+
+alias check_pack="dpkg --get-selections | grep"
+
+alias check_pip="pip list | grep"
+
+alias wl="termux-wake-lock;echo -e '\nWake-Lock Held'"
+
+alias wul="termux-wake-unlock;echo -e '\nWake-Lock Released'"
+
+alias sound="termux-volume system 7;termux-volume call 6;termux-volume ring 7;termux-volume music 15;termux-volume notification 7;termux-volume alarm 7;echo -e '\nDone Sound!';sleep 0.5;exit"
+
+alias s="termux-volume system 7;termux-volume call 6;termux-volume ring 7;termux-volume music 15;termux-volume notification 7;termux-volume alarm 7;echo -e '\nDone Sound!';sleep 0.5;exit"
+
+alias mute="termux-volume system 0;termux-volume call 6;termux-volume ring 0;termux-volume music 0;termux-volume notification 0;termux-volume alarm 0;echo -e '\nDone Mute!';sleep 0.5;exit"
+
+alias m="termux-volume system 0;termux-volume call 6;termux-volume ring 0;termux-volume music 0;termux-volume notification 0;termux-volume alarm 0;echo -e '\nDone Mute!';sleep 0.5;exit"
+
+alias college="termux-volume system 3;termux-volume call 6;termux-volume ring 3;termux-volume music 4;termux-volume notification 3;termux-volume alarm 3;echo -e '\nDone College!';sleep 0.5;exit"
+
+alias c="termux-volume system 3;termux-volume call 6;termux-volume ring 3;termux-volume music 4;termux-volume notification 3;termux-volume alarm 3;echo -e '\nDone College!';sleep 0.5;exit"
+
+alias qrgen="python ~/Git-Repos/My_Py/qrcode_generator.py"
+
+alias qrread="python ~/Git-Repos/My_Py/qrcode_reader.py"
+
+alias qrr="python ~/Git-Repos/My_Py/qrcode_reader.py"
+
+alias see="vncserver"
+
+alias mun="python ~/Munsif/download_munsif.py;exit"
+
+alias copy="termux-clipboard-set <"
+
+# alias copy="termux-clipboard-set <"
+
+alias dust="cd .local/share/Trash/files"
+
+alias play="play-audio"
+
+alias nz="python ~/../Deeds/daily_routine.py"
+
+alias get="termux-storage-get"
+
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
+alias rot5="tr '0-9' '5-90-4'"
+
+alias clone="git clone"
+
+alias dw="cd ~/downloads;ls"
+
+alias de="cd ~/downloads;ls"
+
+alias net="ping -c6 8.8.8.8"
+
+alias ali="vim ~/.termux_aliases"
+
+alias gi="cd ~/Git-Repos"
+
+alias img="termimage"
+
+## ------------- TERMUX VARIABLES --------------------------
+
+export fruit="raqeeb@nonan23x.site:/home/raqeeb"
+
+export fasi="fasi@nonan23x.site:/home/fasi"
+
+export samad="samad@nonan23x.site:/home/samad"
+
+export hub="https://github.com"
+
+export DISPLAY=":1"
+
+## -------------- TERMUX FUNCTIONS --------------------------
